@@ -7,13 +7,17 @@
 #-----------------------------------------------------------------------
 #
 
+#F77 = gfortran
+#FC = gfortran
+#FFLAGS = -O -fdefault-double-8 -fdefault-real-8 -Wl,-u -Wl,pydata_
+
 REDUCE    = reduce
 #F77       = fort77
 #FFLAGS    = +ppu
-FFLAGS    += -no-pie
+#FFLAGS    += -no-pie
 
 #GRACEDIR  = /data1/grc2.1
-#GRACELDIR = $(GRACEDIR)/lib
+GRACELDIR = ../lib
 
 BASESLIB  = bases
 CHANELIB  = chanel
