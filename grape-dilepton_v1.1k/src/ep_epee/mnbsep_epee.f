@@ -70,11 +70,11 @@ C     write(*,'(1x/)')
 *     save the probability information to the file
 *=======================================================================
 
-      lun = 23
+*      lun = 23
       
 
-      call bswrit( lun )
-      close ( lun )
+*      all bswrit( lun )
+*      close ( lun )
 
       stop
       end

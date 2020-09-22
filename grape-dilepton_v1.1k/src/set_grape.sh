@@ -23,7 +23,7 @@ export  FFLAGS='-O -ffixed-line-length-132 -fdefault-double-8 -fdefault-real-8 -
 #(Path to CERNLIB)
 #export  USRLDIR="-L/vol0/pierre/Bureau/TCSSImulation/GRAPE2/i386_redhat61/2000/lib"
 #export  USRLDIR=$(cernlib -dy pdflib804 mathlib packlib)
-export  USRLDIR=$(cernlib pdflib804 mathlib packlib)
+#export  USRLDIR=$(cernlib pdflib804 mathlib packlib)
 # pythia6152
 
 export  SYSLIB=" "
@@ -32,7 +32,7 @@ export  SYSLIB="-lnsl -lm -lc"
 
 #export  USRLIB="-lpdflib804 -lmathlib -lpacklib -lpythia6152  ${SYSLIB}"
 #export  USRLIB=$(cernlib -dy pdflib804 mathlib packlib)
-export  USRLIB=$(cernlib pdflib804 mathlib packlib)
+#export  USRLIB=$(cernlib pdflib804 mathlib packlib)
 # pythia6152
 
 #=======================================
