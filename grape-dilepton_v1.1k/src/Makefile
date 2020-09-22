@@ -842,4 +842,4 @@ clean-all: clean
 	rm -f *~
 
 clean:
-	rm -f $(INTEG) $(SPRING) *.o junk* tmp* core
+	rm -f $(INTEG) $(SPRING) *.o */*.o junk* tmp* core
